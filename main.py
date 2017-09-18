@@ -19,15 +19,8 @@ try:
                 key = msvcrt.getch()
                 if key == b'\x03':
                     break
-
-                if key == b'\r':
-                    data = b'\r\n'
-                elif key == b'\b':
-                    data = b'\b \b'
-                else:
-                    data = key
                 
-                ser.write(data)
+                ser.write(key)
 
 except Exception as e:
     print(e)
