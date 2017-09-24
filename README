@@ -1,3 +1,1 @@
-Implements a basic serial IO program to communicate with Arduinos.
-Can pass in a port (e.g. COM3) as first argument to connect to. Meant to mimic
-behaviour of CMPUT274 client for testing code in that class
+Implements a basic serial IO program to communicate with Arduinos. Can pass in a port (e.g. COM3) as first argument to connect to. Meant to mimic behaviour of CMPUT274 serial client for testing code in that class.
